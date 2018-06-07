@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/transition/change_image_transform.xml -->
+<!-- (see also Shared Transitions below) -->
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <explode android:duration="400"/>
+    <changeBounds android:duration="400"/>
+    <changeTransform android:duration="400"/>
+    <changeClipBounds android:duration="400"/>
+    <changeImageTransform android:duration="400"/>
+
+</transitionSet>

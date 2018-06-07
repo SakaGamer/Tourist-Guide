@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_near_me"
+            android:icon="@drawable/ic_near_me"
+            android:title="@string/near_me" />
+        <item
+            android:id="@+id/nav_save"
+            android:icon="@drawable/ic_save"
+            android:title="@string/saved_place" />
+        <item
+            android:id="@+id/nav_recommend"
+            android:icon="@drawable/ic_direction"
+            android:title="@string/recommendation" />
+        <item
+            android:id="@+id/nav_provinces"
+            android:icon="@drawable/ic_province"
+            android:title="@string/province" />
+    </group>
+
+    <item android:title="@string/more">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/nav_suggest"
+                android:icon="@drawable/ic_suggest"
+                android:title="@string/suggest_new_place" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>

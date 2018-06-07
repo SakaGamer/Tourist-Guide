@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightGrey">
+
+    <View
+        android:id="@+id/sign_in_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/feedback_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="@dimen/margin_24dp"
+        android:layout_marginRight="@dimen/margin_24dp"
+        android:layout_marginTop="60dp"
+        app:cardCornerRadius="@dimen/margin_4dp"
+        app:cardElevation="@dimen/margin_4dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="@dimen/margin_12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/feedback"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/feedback_edt_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:minHeight="120dp"
+                android:hint="@string/feedback_hint"
+                android:imeOptions="actionDone"
+                android:inputType="text|textShortMessage" />
+
+            <Button
+                android:id="@+id/feedback_btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/submit"
+                android:textColor="@color/colorWhite"
+                tools:targetApi="lollipop" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <include layout="@layout/progress_bar" />
+
+    <TextSwitcher
+        android:id="@+id/feedback_txt_switcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feedback_card"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/margin_24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+    </TextSwitcher>
+
+    <TextSwitcher
+        android:id="@+id/feedback_txt_switcher_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feedback_txt_switcher"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_12dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+    </TextSwitcher>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="people">
+        <item>Unspecified</item>
+        <item>Alone</item>
+        <item>Couple</item>
+        <item>Friends</item>
+        <item>Family</item>
+        <item>Team</item>
+    </string-array>
+
+    <string-array name="place_categories">
+        <item>All</item>
+        <item>Adventure</item>
+        <item>Boating</item>
+        <item>City</item>
+        <item>Culture</item>
+        <item>Forest</item>
+        <item>Historical</item>
+        <item>Mountain</item>
+        <item>Sea</item>
+        <item>Landscape</item>
+        <item>Temple</item>
+        <item>Waterfall</item>
+        <item>Wildlife</item>
+    </string-array>
+
+</resources>

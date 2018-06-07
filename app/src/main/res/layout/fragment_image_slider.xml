@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="@color/colorLightGrey"
+    tools:context=".fragments.ImageSliderFragment">
+
+    <!--<com.android.volley.toolbox.NetworkImageView-->
+        <!--android:id="@+id/image_slider_img"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="When you have an implementation of a PageTransformer, call setPageTransformer() with your implementation to apply your custom animations. For example, if you have a PageTransformer named
+        ZoomOutPageTransformer, you can set your custom animations like this:"/>
+
+</FrameLayout>

@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Tourist Guide</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_night_mode">Night mode</string>
+    <string name="menu_night_mode_system">Follow system</string>
+    <string name="menu_night_mode_day">Day (always)</string>
+    <string name="menu_night_mode_night">Night (always)</string>
+    <string name="menu_night_mode_auto">Auto</string>
+
+    <!--sign in and sign up -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="username">Username</string>
+    <string name="go_sign_in">Go Sign In</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <!--navigation drawer menu-->
+    <string name="popular">Popular</string>
+    <string name="near_me">Near Me</string>
+    <string name="saved_place">Save Place</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="settings">Settings</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About</string>
+    <string name="more">More</string>
+
+    <string name="place_detail">Place Detail</string>
+    <string name="search_hint">Tourist Place Name</string>
+    <string name="no_result">No Result</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="submit">Submit</string>
+    <string name="feedback_response">Thanks for your feedback to our organization.
+        We will try to review your feedback carefully.</string>
+    <string name="please_sign_in">Please Sign In or Sign Up</string>
+    <string name="to_save">to save tourist place</string>
+    <string name="feedback_hint">Write your comment here&#8230;</string>
+
+    <!--settings -->
+    <string name="require">Require</string>
+    <string name="language">Language</string>
+    <string name="khmer">Khmer</string>
+    <string name="english">English</string>
+    <string name="night_mode">Night Mode</string>
+
+    <!--recommendation-->
+    <string name="search">Search</string>
+    <string name="free_day">Free day(s)</string>
+    <string name="day_off">Day Off</string>
+    <string name="category">Category</string>
+    <string name="go_with">Go With</string>
+    <string name="result">Result</string>
+
+    <string name="alone">Alone</string>
+    <string name="couple">Couple</string>
+    <string name="friends">Friends</string>
+    <string name="family">Family</string>
+    <string name="team">Team</string>
+
+    <string name="info">Information</string>
+    <string name="province">Province</string>
+    <string name="provinces">By Province</string>
+    <string name="population">Population</string>
+    <string name="area">Area</string>
+    <string name="density">Density</string>
+    <string name="tourist_place">Tourist Place</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+
+    <string name="shared_image">TransitionImage</string>
+    <string name="description">Description</string>
+    <string name="map">Map</string>
+    <string name="suggest_new_place">Suggest New Place</string>
+    <string name="all">All</string>
+    <string name="show">Show</string>
+    <string name="request_location_permission">To Show Near By Tourist Places, You Need To Allow Location Permission</string>
+    <string name="unspecified">Unspecified</string>
+    <string name="home">Home</string>
+    <string name="no_location">Can not detect current location</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="general">GENERAL</string>
+
+    <!--<string name="google_api_key">AIzaSyBCRpXH9xatCfNzQ06DzqnabCBK52EpIPo</string>-->
+
+</resources>

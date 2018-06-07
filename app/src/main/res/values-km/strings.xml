@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ទេសចរណ៍</string>
+
+    <string name="place_detail">ពត៌មានលំអិត</string>
+
+    <string name="email">អ៊ីម៉ែល</string>
+    <string name="password">ពាក្យសំងាត់</string>
+    <string name="sign_in">ចុះឈ្មោះចូល</string>
+    <string name="sign_out">ចេញ</string>
+    <string name="username">ឈ្មោះ</string>
+    <string name="go_sign_in">ត្រលប់ទៅចុះឈ្មោះចូល</string>
+    <string name="confirm_password">បញ្ជាក់ពាក្យសំងាត់</string>
+    <string name="create_account">បង្កើតគណនេយ្យ</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <!--navigation drawer menu-->
+    <string name="popular">កន្លែងពេញនិយម</string>
+    <string name="near_you">កន្លែងជិតអ្នក</string>
+    <string name="saved_place">បញ្ជីកន្លែងចូលចិត្ត</string>
+    <string name="provinces">តាមបណ្តាខេត្ត</string>
+    <string name="recommendation">ផ្តល់យោបល់</string>
+    <string name="settings">ការកំណត់</string>
+    <string name="feedback">មតិយោបល់</string>
+    <string name="about">អំពីយើង</string>
+    <string name="more">ច្រើនទៀត</string>
+
+    <string name="search_hint">ឈ្មោះកន្លែងទេសចរណ៍</string>
+    <string name="no_result">គ្មានលទ្ធផល</string>
+    <string name="loading">កំពុងដំណើរការ&#8230;</string>
+    <string name="submit">ផ្ញើរ</string>
+    <string name="feedback_response">
+    អរគុណសម្រាប់ការផ្ល់មតិយោបល់កែលំអរ។
+    </string>
+
+    <string name="feedback_hint">សរសេរមតិយោបល់អ្នកនៅទីនេះ&#8230;</string>
+
+    <string name="require">ត្រូវបំពេញ</string>
+
+    <string name="language">ភាសា</string>
+    <!--<string name="khmer">ភាសាខ្មែរ</string>-->
+    <!--<string name="english">ភាសាអង់គ្លេស</string>-->
+    <string name="night_mode">ម៉ូតពេលយប់</string>
+
+</resources>

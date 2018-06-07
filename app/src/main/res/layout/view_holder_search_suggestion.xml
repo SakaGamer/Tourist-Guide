@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:padding="@dimen/margin_4dp">
+
+    <ImageView
+        android:id="@+id/vh_search_suggestion_img"
+        android:layout_width="@dimen/margin_24dp"
+        android:layout_height="@dimen/margin_24dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/margin_12dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_search"
+        android:tint="@color/colorBlack" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/vh_search_suggestion_img"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vh_search_suggestion_txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/vh_search_suggestion_txt_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/province" />
+
+    </LinearLayout>
+
+</RelativeLayout>
